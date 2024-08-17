@@ -1,0 +1,35 @@
+{
+  "name": "ld-language-support",
+  "displayName": "LD Language Support",
+  "description": "Syntax highlighting for .ld files",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.60.0"
+  },
+  "categories": [
+    "Programming Languages"
+  ],
+  "icon": "images/ld-icon.png",
+  "publisher": "Miisan",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/ld-language-support.git"
+  },
+  "contributes": {
+    "languages": [{
+      "id": "ld",
+      "aliases": ["LD", "ld"],
+      "extensions": [".ld"],
+      "configuration": "./language-configuration.json",
+      "icon": {
+        "light": "./images/ld-icon-light.svg",
+        "dark": "./images/ld-icon-dark.svg"
+      }
+    }],
+    "grammars": [{
+      "language": "ld",
+      "scopeName": "source.ld",
+      "path": "./syntaxes/ld.tmLanguage.json"
+    }]
+  }
+}
