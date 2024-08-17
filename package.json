@@ -1,8 +1,8 @@
 {
   "name": "ld-language-support",
-  "displayName": "LD Language Support",
-  "description": "Syntax highlighting for .ld files",
-  "version": "0.0.1",
+  "displayName": "Love2D Dialog (.ld) Language Support",
+  "description": "Syntax highlighting for Love2D Dialog (.ld) files",
+  "version": "0.0.3",
   "engines": {
     "vscode": "^1.60.0"
   },
@@ -10,7 +10,7 @@
     "Programming Languages"
   ],
   "icon": "images/ld-icon.png",
-  "publisher": "Miisan",
+  "publisher": "miisan-mi",
   "repository": {
     "type": "git",
     "url": "https://github.com/yourusername/ld-language-support.git"
@@ -18,7 +18,7 @@
   "contributes": {
     "languages": [{
       "id": "ld",
-      "aliases": ["LD", "ld"],
+      "aliases": ["Love2D Dialog", "ld"],
       "extensions": [".ld"],
       "configuration": "./language-configuration.json",
       "icon": {
